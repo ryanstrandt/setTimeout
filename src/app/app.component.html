@@ -1,3 +1,9 @@
 <h1>
   {{title}}
+  <!-- <button disabled="done">Go</button> -->
+  <button type="button" name="button" (click)="runProcess()" [disabled]="disabled">Go</button>
+  <div>Processing... {{input}}</div>
+  <div class="">
+    {{processing}}
+  </div>
 </h1>
